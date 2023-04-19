@@ -12,6 +12,7 @@ If case 1 does not hold for the client, and loss value of the client is between 
   
 Otherwise, it is considered as a fully malicious client [i.e., green region] (coded by 2). (Case 3)  
      
-    ![image](https://user-images.githubusercontent.com/48517382/233139930-8146392c-0f02-4ef6-a141-cd5f5f389157.png)
+![image](https://user-images.githubusercontent.com/48517382/233140339-ea05ead8-8c93-48c5-bef9-0f32bb79fa9e.png)
+
   
   
