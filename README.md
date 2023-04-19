@@ -5,9 +5,12 @@ However, there are malicious clients that is used to interfere with the server a
 
 * Partially Malicious Client: it shuffles half of its labels. 15% of clients are partially malicious. It is coded by number 1.  
 * Fully Malicious Client: it shuffles all of its labels. 5% of clients are Fully Malicious. It is coded by number 2.    
+  
 If the loss value of a client is between mean+standard_deviation and mean-standard_deviation [i.e., pink region] this client is considered as benign (coded by 0). (Case 1)  
+  
 If case 1 does not hold for the client, and loss value of the client is between mean+2*standard_deviation and mean-2*standard_deviation [i.e., purple region], this client is considered as partially malicious (coded by 1). (Case 2)  
-  Otherwise, it is considered as a fully malicious client [i.e., green region] (coded by 2). (Case 3)  
+  
+Otherwise, it is considered as a fully malicious client [i.e., green region] (coded by 2). (Case 3)  
     
     ![image](https://user-images.githubusercontent.com/48517382/233139930-8146392c-0f02-4ef6-a141-cd5f5f389157.png)
   
