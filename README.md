@@ -11,7 +11,7 @@ If the loss value of a client is between mean+standard_deviation and mean-standa
 If case 1 does not hold for the client, and loss value of the client is between mean+2*standard_deviation and mean-2*standard_deviation [i.e., purple region], this client is considered as partially malicious (coded by 1). (Case 2)  
   
 Otherwise, it is considered as a fully malicious client [i.e., green region] (coded by 2). (Case 3)  
-    
+     
     ![image](https://user-images.githubusercontent.com/48517382/233139930-8146392c-0f02-4ef6-a141-cd5f5f389157.png)
   
   
